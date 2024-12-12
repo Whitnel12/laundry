@@ -1,0 +1,564 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 8%;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+.main-item {
+    padding-top: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+}
+
+.item-nav {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo {
+    /* background-color: brown; */
+    font-weight: 600;
+    font-style: normal;
+    width: 20%;
+}
+
+.nav-container-ul {
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 30px;
+}
+
+.nav-component {
+    /* background-color: yellow; */
+    width: 30%;
+}
+
+.main .navbar .nav-component ul {
+    display: flex;
+    gap: 30px;
+}
+
+.main .navbar .nav-component ul li {
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.nav-login {
+    width: 20%;
+    /* border: 1px solid red; */
+}
+
+.nav-login :first-child {
+    background-color: rgb(0, 0, 0);
+    padding: 3px 17px;
+    border-radius: 15px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#home {
+    /* border: 1px solid red; */
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-home {
+    height: 96%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/bg-laundry.jpg");
+    border-radius: 40px;
+    /* border: 1px solid blue; */
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-home .title-bg-container {
+    /* border: 1px solid red; */
+    width: fit-content;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+.bg-home .title-bg-container .first-title-bg {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.bg-home .title-bg-container .second-title-bg {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.bg-home .title-bg-container .btn-bg-container {
+    /* border: 1px solid red; */
+    flex: 1;
+    padding-top: 30px;
+}
+
+.bg-home .title-bg-container .btn-bg-container a {
+    /* border: 1px solid red; */
+    flex: 1;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    background-color: #2986fe;
+}
+
+#layanan {
+    height: 80vh;
+    margin-bottom: 20px;
+    /* border: 1px solid blue; */
+}
+
+.service-desk {
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.service-desk :first-child {
+    font-size: x-large;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.service-desk :last-child {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    /* border: 1px solid blue; */
+}
+
+.container-service {
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.service {
+    /* background-color: brown; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.service:hover {
+    background-color: #b7e0ff;
+}
+
+.service :last-child {
+    text-align: center;
+}
+
+.container-img-service {
+    /* border: 1px solid blue; */
+    padding: 9px 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #f9f9fb;
+}
+
+.label-service {
+    /* border: 1px solid sandybrown; */
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.teks-service {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.prioriy-service-container {
+    background: rgb(255, 255, 255);
+    background: rgb(228, 241, 255);
+    background: -moz-linear-gradient(
+        324deg,
+        rgba(228, 241, 255, 1) 34%,
+        rgba(197, 223, 248, 1) 56%,
+        rgba(197, 223, 248, 1) 71%,
+        rgba(197, 223, 248, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+        324deg,
+        rgba(228, 241, 255, 1) 34%,
+        rgba(197, 223, 248, 1) 56%,
+        rgba(197, 223, 248, 1) 71%,
+        rgba(197, 223, 248, 1) 100%
+    );
+    background: linear-gradient(
+        324deg,
+        rgba(228, 241, 255, 1) 34%,
+        rgba(197, 223, 248, 1) 56%,
+        rgba(197, 223, 248, 1) 71%,
+        rgba(197, 223, 248, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e4f1ff",endColorstr="#c5dff8",GradientType=1);
+    height: fit-content;
+    display: flex;
+    padding: 40px;
+    border-radius: 20px;
+    /* justify-content: space-between; */
+    /* border: 1px solid red; */
+}
+
+.priority-service {
+    /* background-color: brown; */
+    height: 150px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-priority {
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.priority-service :first-child {
+    /* border: 1px solid red; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    width: 100%;
+}
+
+.priority-service :last-child {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    /* border: 1px solid red; */
+}
+
+.priority-service-desk {
+    /* background-color: brown; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-priority {
+    display: flex;
+    align-items: center;
+    /* min-height: 340px; */
+    width: 100%;
+    /* border: 1px solid red; */
+    /* margin-bottom: 30px; */
+    /* background-color: aquamarine; */
+}
+
+#about {
+    height: 30vh;
+    /* border: 1px solid red; */
+    padding-top: 50px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#about .main-about {
+    /* border: 1px solid blue; */
+    flex: 1;
+    /* padding: 20px; */
+}
+
+.container-about {
+    /* border: 1px solid green; */
+    height: 80%;
+    display: flex;
+}
+
+.title-about {
+    /* background-color: #2986fe; */
+    width: 32%;
+}
+
+.container-about .title-about .about {
+    /* border: 1px solid green; */
+    padding: 10px 25px;
+    width: fit-content;
+    border-radius: 20px;
+    background-color: #f9f9fb;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.desk-about {
+    /* background-color: beige; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.desk-about .desk-about-title-container {
+    /* border: 1px solid red; */
+    height: fit-content;
+    margin-bottom: 10px;
+}
+
+.desk-about-title-container div {
+    /* border: 1px solid green; */
+    font-size: 18px;
+    height: fit-content;
+    font-weight: 500;
+}
+
+.desk-about .desk-about-teks-container {
+    /* border: 1px solid black; */
+    /* flex: 1; */
+    display: flex;
+    height: 100%;
+    /* margin-bottom: 10px; */
+}
+
+.desk-about .desk-about-teks-container .first-content {
+    /* background-color: #2986fe; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.desk-about .desk-about-teks-container .first-content  {
+    font-size: 13px;
+    /* background-color: red; */
+    width: 90%;
+    height: fit-content;
+    border-left: 3px solid blue;
+    padding-left: 10px;
+}
+
+.desk-about .desk-about-teks-container .second-content  {
+    border-left: 3px solid blue;
+    /* flex: 1; */
+    /* background-color: black; */
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.desk-about .desk-about-teks-container .second-content div {
+    font-size: 13px;
+    width: 90%;
+    /* background-color: #2986fe; */
+    /* border-left: 3px solid blue; */
+    padding-left: 10px;
+}
+
+footer {
+    /* border: 1px solid red; */
+    border-radius: 15px;
+    height: 40vh;
+    background-color: #f1f1f1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+footer .main-footer-container {
+    /* border: 1px solid blue; */
+    height: 70%;
+    padding: 4%;
+}
+
+footer .main-footer-container div {
+    /* border: 1px solid blue; */
+    height: 100%;
+}
+
+.footer-label-container {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.footer-copyright-container {
+    /* border: 1px solid red; */
+    text-align: center;
+    /* height: 100%; */
+}
+
+.footer-copyright-container div {
+    /* background-color: #2986fe; */
+    font-size: 13px;
+}
+
+/* Untuk layar lebar hingga 768px */
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 20px;
+    }
+
+    .nav-logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .nav-component ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .nav-login {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-item {
+        padding: 20px;
+    }
+
+    #home {
+        padding: 20px;
+    }
+
+    .bg-home {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .bg-home .title-bg-container {
+        width: 100%;
+        row-gap: 15px;
+    }
+
+    .bg-home .title-bg-container .second-title-bg {
+        font-size: 30px;
+    }
+
+    #layanan .container-service {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .service {
+        width: 100%;
+        text-align: center;
+    }
+
+    .prioriy-service-container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        border: 1px solid red;
+        height: 60%;
+    }
+
+    .priority-service,
+    .priority-service-desk {
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    .priority-service-desk :first-child,
+    .priority-service-desk :last-child {
+        position: static;
+        width: 100%;
+        height: 100%;
+    }
+
+    #home {
+        height: 70vh;
+    }
+}
+
+/* Untuk layar kecil hingga 480px */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .nav-component ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .bg-home .title-bg-container .first-title-bg {
+        font-size: 16px;
+    }
+
+    .bg-home .title-bg-container .second-title-bg {
+        font-size: 24px;
+    }
+
+    .bg-home .title-bg-container .btn-bg-container a {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    #layanan .service-desk :first-child {
+        font-size: large;
+    }
+
+    .service .label-service {
+        font-size: 16px;
+    }
+
+    .teks-service {
+        font-size: 12px;
+    }
+
+    .priority-service :first-child {
+        font-size: 20px;
+    }
+    .priority-service-desk :first-child,
+    .priority-service-desk :last-child {
+        position: static;
+        width: 100%;
+        height: 100%;
+    }
+}
